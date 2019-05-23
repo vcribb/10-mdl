@@ -1,3 +1,7 @@
+#! /usr/bin/python2.7
+
+# I really hope this works because Python 3 has been messing me up
+
 # -----------------------------------------------------------------------------
 # ply: yacc.py
 #

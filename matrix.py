@@ -1,3 +1,6 @@
+#! /usr/bin/python2.7
+
+# I really hope this works because Python 3 has been messing me up
 import math
 
 def make_bezier():
@@ -75,7 +78,7 @@ def print_matrix( matrix ):
         for c in range( len(matrix) ):
             s+= str(matrix[c][r]) + ' '
         s+= '\n'
-    print (s)
+    print s
 
 def ident( matrix ):
     for r in range( len( matrix[0] ) ):
